@@ -77,6 +77,10 @@
      padding-top: 100px;
  }
 
+ .nav-footer {
+     display: none;
+ }
+
 @media only screen and (min-width: 768px) {
     nav {
         display: flex;
@@ -91,6 +95,7 @@
     #profile {
         float: right;
         margin: 0 auto;
+        padding-left: 8px;
     }
 
     .section-1 {
@@ -108,6 +113,26 @@
     .project {
         float: left;
         width: 45%;
+        margin: auto;
+    }
+
+    .project:nth-child(odd) {
+        margin-right: 7%;
+    }
+    .section-last {
+        display: inline-block;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .nav-footer {
+        display: flex;
+    }
+
+    .project img {
+        max-width: 108%;
     }
 
     
